@@ -15,6 +15,7 @@ jobs:
 
     outputs:
       image: ${{ steps.push-image.outputs.image }}
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v3
